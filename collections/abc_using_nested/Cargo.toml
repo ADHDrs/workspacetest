@@ -1,0 +1,9 @@
+[package]
+name = "abc_using_nested"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+c_using_ab = {path = "../../nested/c_using_ab"}
